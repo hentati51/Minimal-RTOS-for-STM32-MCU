@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;LED_Blinker/Application&apos; to &apos;App&apos;" description="Rename resource &apos;Application&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Application" name="App" stamp="1721740361255" updateReferences="true"/>
+</session>

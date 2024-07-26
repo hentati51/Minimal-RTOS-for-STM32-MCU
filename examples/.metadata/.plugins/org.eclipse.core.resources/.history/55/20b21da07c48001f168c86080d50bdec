@@ -1,0 +1,28 @@
+v3 :new version of semaphore : -blocked semaphore
+							-blocked sleeep
+							-tim3.c to calculate func time excution		
+							-add maxCount and initial count attribute uxMaxCount:
+								*The maxCount value that the semaphore can reach. This represents the total number of available resources.
+								*InitialCount: The initial count value of the semaphore. This is the number of resources available at the time of creation.
+						
+v3 ---->v4 :
+new version of queue using the new semaphore implementation
+
+v4 ----->v5 :
+the semaphore timeout logic it no longer work because of blocking semaphore approch so the idea
+ is to create an array of sem to check then the timouts in the shedular 
+ 
+ v5 ----->v6:
+	 -dynamically allocate the semaphore array to not be limited with a max number of sem.
+	 -add some improvment to "sem_timeout_handle()" to make it more effecient :
+ 				*Cache semaphore reference to avoid repeated array access.
+ 
+  v6 ----->v7:
+		new queue implementation 
+ 
+  v7 ----->v9:
+		make some modification to push this project to github
+		
+  v9----->v10:
+  	new queue implementation
+

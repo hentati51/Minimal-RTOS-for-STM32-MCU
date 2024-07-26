@@ -1,0 +1,279 @@
+!SESSION 2024-07-22 16:02:34.607 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-22 16:02:59.124
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-22 16:02:59.204
+!MESSAGE Log4j initialized with config file C:\Users\henta\Desktop\embedded\RTOS from scratch\GCC_stm32F1_cudeIde\MyRTOS\examples\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-22 16:03:02.585
+!MESSAGE Started RMI Server, listening on port 41339
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-22 16:03:30.354
+!MESSAGE Indexed 'LED_Blinker' (7 sources, 74 headers) in 1,93 sec: 3 678 declarations; 6 688 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0,019 %)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-07-22 16:04:04.498
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-22 16:05:42.064
+!MESSAGE Indexed 'LED_Blinker' (7 sources, 74 headers) in 1,03 sec: 3 678 declarations; 6 688 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0,019 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-22 16:06:00.428
+!MESSAGE Indexed 'LED_Blinker' (7 sources, 74 headers) in 0,84 sec: 3 678 declarations; 6 688 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0,019 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-22 16:07:02.579
+!MESSAGE Indexed 'LED_Blinker' (5 sources, 70 headers) in 0,76 sec: 3 453 declarations; 5 883 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0,021 %)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2024-07-22 16:07:09.406
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2024-07-22 16:07:09.406
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2024-07-22 16:07:18.943
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2024-07-22 16:07:18.943
+!MESSAGE 
+!SESSION 2024-07-22 16:07:25.728 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-22 16:07:31.829
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-22 16:07:31.889
+!MESSAGE Log4j initialized with config file C:\Users\henta\Desktop\embedded\RTOS from scratch\GCC_stm32F1_cudeIde\MyRTOS\examples\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-22 16:07:37.241
+!MESSAGE Started RMI Server, listening on port 41339
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2024-07-22 16:07:40.364
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2024-07-22 16:07:40.364
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-22 16:31:49.375
+!MESSAGE Indexed 'Shared_Uart' (7 sources, 66 headers) in 1,48 sec: 3 285 declarations; 5 104 references; 14 unresolved inclusions; 30 syntax errors; 743 unresolved names (8,1 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-22 16:38:21.773
+!MESSAGE Indexed 'LED_Blinker2' (7 sources, 78 headers) in 1,02 sec: 3 748 declarations; 6 753 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0,019 %)
+
+!ENTRY org.eclipse.core.resources 4 368 2024-07-22 16:38:51.279
+!MESSAGE Resource '/Shared_Uart' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/Shared_Uart' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:36)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:93)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:121)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettingsInBackground(LanguageSettingsProvidersSerializer.java:978)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettingsInBackground(LanguageSettingsManager.java:376)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettingsInBackground(LanguageSettingsSerializableProvider.java:299)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuildCommandParser.serializeLanguageSettingsInBackground(AbstractBuildCommandParser.java:254)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuildCommandParser.shutdown(AbstractBuildCommandParser.java:267)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.closeConsoleOutputStream(ConsoleOutputSniffer.java:162)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.close(ConsoleOutputSniffer.java:70)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.close(ProcessClosure.java:101)
+	at org.eclipse.cdt.internal.core.ProcessClosure.isAlive(ProcessClosure.java:194)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:249)
+	at org.eclipse.cdt.core.CommandLauncherManager$CommandLauncherWrapper.waitAndRead(CommandLauncherManager.java:161)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:284)
+	at org.eclipse.cdt.managedbuilder.core.ExternalBuildRunner.invokeExternalBuild(ExternalBuildRunner.java:140)
+	at org.eclipse.cdt.managedbuilder.core.ExternalBuildRunner.invokeBuild(ExternalBuildRunner.java:73)
+	at com.st.stm32cube.ide.mcu.toolchain.armnone.setup.BuildRunner.invokeBuild(BuildRunner.java:70)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:761)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:517)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:463)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-07-22 16:38:51.329
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Shared_Uart)[368]: java.lang.Exception: Resource '/Shared_Uart' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:36)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:93)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:121)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:909)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$2.run(LanguageSettingsProvidersSerializer.java:953)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2024-07-22 16:38:51.329
+!MESSAGE Resource '/Shared_Uart' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/Shared_Uart' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:36)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:93)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:121)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:909)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$2.run(LanguageSettingsProvidersSerializer.java:953)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-07-22 16:38:51.329
+!MESSAGE Internal error running job of serializing language settings for project Shared_Uart
+!STACK 1
+org.eclipse.core.runtime.CoreException: Internal error while trying to serialize language settings
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:935)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$2.run(LanguageSettingsProvidersSerializer.java:953)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource '/Shared_Uart' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:36)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:93)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:121)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:909)
+	... 2 more
+Caused by: java.lang.Exception: Resource '/Shared_Uart' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 9 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2024-07-22 16:38:51.339
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Shared_Uart)[368]: java.lang.Exception: Resource '/Shared_Uart' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:36)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:93)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:121)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:909)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$2.run(LanguageSettingsProvidersSerializer.java:953)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2024-07-22 16:38:51.349
+!MESSAGE Resource '/Shared_Uart' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/Shared_Uart' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:36)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:93)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:121)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:909)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$2.run(LanguageSettingsProvidersSerializer.java:953)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-22 16:42:52.638
+!MESSAGE Indexed 'LED_Blinker' (7 sources, 76 headers) in 0,781 sec: 3 830 declarations; 6 840 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0,019 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-22 16:44:21.806
+!MESSAGE Indexed 'Shared_UART' (7 sources, 78 headers) in 0,721 sec: 3 830 declarations; 6 844 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0,019 %)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2024-07-22 16:53:19.036
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.Exception: File: C:\Users\henta\Desktop\embedded\RTOS from scratch\GCC_stm32F1_cudeIde\MyRTOS\examples\Shared_UART\Debug\Shared_UART.elfdo not exists
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:56)
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:84)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:914)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1256)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-22 16:55:56.590
+!MESSAGE Indexed 'Shared_UART' (7 sources, 76 headers) in 0,53 sec: 3 825 declarations; 6 864 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0,019 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-22 19:44:40.837
+!MESSAGE Indexed 'UART_CLI' (7 sources, 78 headers) in 0,951 sec: 3 817 declarations; 6 859 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0,019 %)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2024-07-22 20:06:52.072
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.Exception: File: C:\Users\henta\Desktop\embedded\RTOS from scratch\GCC_stm32F1_cudeIde\MyRTOS\examples\LED_Blinker\Debug\LED_Blinker.elfdo not exists
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:56)
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:84)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:914)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1256)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+!SESSION 2024-07-22 22:38:23.204 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-07-22 22:38:40.249
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-22 22:39:00.421
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-22 22:39:00.591
+!MESSAGE Log4j initialized with config file C:\Users\henta\Desktop\embedded\RTOS from scratch\GCC_stm32F1_cudeIde\MyRTOS\examples\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-22 22:39:17.104
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-23 15:03:56.726
+!MESSAGE Indexed 'Shared_UART' (7 sources, 72 headers) in 1,76 sec: 3 499 declarations; 6 421 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0,02 %)
+!SESSION 2024-07-26 12:28:59.354 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-07-26 12:29:14.794
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-26 12:29:25.682
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-26 12:29:25.782
+!MESSAGE Log4j initialized with config file C:\Users\henta\Desktop\embedded\RTOS from scratch\GCC_stm32F1_cudeIde\MyRTOS\examples\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-26 12:29:37.030
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-07-26 16:15:02.945 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-26 16:15:37.972
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-26 16:15:38.062
+!MESSAGE Log4j initialized with config file C:\Users\henta\Desktop\embedded\RTOS from scratch\GCC_stm32F1_cudeIde\MyRTOS\examples\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-26 16:15:47.794
+!MESSAGE Started RMI Server, listening on port 41337

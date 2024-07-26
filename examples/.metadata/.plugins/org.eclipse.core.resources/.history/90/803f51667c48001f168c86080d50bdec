@@ -1,0 +1,24 @@
+#ifndef __LED_H__
+#define __LED_H__
+
+
+#include "boardConfig.h"
+
+typedef enum{
+	GREEN=12,
+	ORANGE,
+	RED,
+	BLUE,
+
+}LedColor;
+
+
+void leds_init(void);
+
+void led_on(LedColor);
+void led_off(LedColor);
+void led_toggle(LedColor);
+
+
+
+#endif

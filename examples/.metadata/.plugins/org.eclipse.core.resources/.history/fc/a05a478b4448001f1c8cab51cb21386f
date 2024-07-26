@@ -1,0 +1,18 @@
+#ifndef __MAIN_H__
+#define __MAIN_H_
+
+#define	MS_QUANTA	10
+
+#define STACKSIZE   200 // 200 byte
+
+#define NUM_OF_USER_TASKS		3
+#define NUM_PERIODIC_TASKS  	2
+
+
+#define USER_IDLE_TASK_ENABLE   1
+
+#define TICK_TIMER_ENABLE    1
+#define TICK_TIMER		     TIM2  //when enable the tick timer you should use the timer used (tim2,tim3,tim4)
+
+
+#endif

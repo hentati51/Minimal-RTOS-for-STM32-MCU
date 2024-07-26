@@ -1,0 +1,41 @@
+/******************************************************************************
+ * @file    	BSP/STM32F4/Inc/main.h
+ *
+ * @Description This file include macros, and configuration settings needed for the RTOS implementation
+ *
+ * @attention
+ *          	- The stack size (STACKSIZE) should be adjusted according to the task requirements
+ *          	- Modify the number of user tasks (NUM_OF_USER_TASKS) and periodic tasks
+ *            	  (NUM_PERIODIC_TASKS) as needed based on your application.
+ *
+ *
+ * @date    	2024-07-22
+ * @author  	Achraf Hentati	Embedded Systems Engineer
+ * @github  	https://github.com/hentati51
+ * @email   	hentati51@gmail.com
+ *****************************************************************************/
+
+#ifndef __LED_H__
+#define __LED_H__
+
+
+#include "boardConfig.h"
+
+typedef enum{
+	GREEN=12,
+	ORANGE,
+	RED,
+	BLUE,
+
+}LedColor;
+
+
+void leds_init(void);
+
+void led_on(LedColor);
+void led_off(LedColor);
+void led_toggle(LedColor);
+
+
+
+#endif
