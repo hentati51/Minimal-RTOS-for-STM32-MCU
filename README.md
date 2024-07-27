@@ -46,7 +46,7 @@ To set up the project, follow this instructions:
 
 #### Examples:
 - `LED_Blinker_F407`
-Application for STM32F407VG disovery board to test the RTOQ task managment services .It includes 4 tasks for toggling discovery board users LEDs with different delays and also managing periodic tasks.
+Application for STM32F407VG disovery board to test the RTOS task managment services .It includes 4 tasks for toggling discovery board users LEDs with different delays and also managing periodic tasks.
    
 - `SharedUart_F407`
  Application for STM32F407VG disovery board to test the semaphore implementation of the developed RTOS. It includes 3 tasks that shares the same UART resource to sends a string message.A semaphore is used to manage UART access to ensure that messages are not corrupted due to simultaneous access.
