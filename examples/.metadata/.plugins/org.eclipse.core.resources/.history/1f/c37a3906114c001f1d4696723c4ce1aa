@@ -1,0 +1,8 @@
+"./App/Src/main.o"
+"./App/Src/syscalls.o"
+"./App/Src/sysmem.o"
+"./BSP/STM32F4/Src/STM32F4_led.o"
+"./BSP/STM32F4/Src/STM32F4_uart.o"
+"./RTOS/Src/osKernel.o"
+"./RTOS/Src/semaphore.o"
+"./Startup/startup_stm32f103c8tx.o"

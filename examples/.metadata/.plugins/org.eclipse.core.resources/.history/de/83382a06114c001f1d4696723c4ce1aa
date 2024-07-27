@@ -1,0 +1,1 @@
+App/Src/syscalls.o: ../App/Src/syscalls.c

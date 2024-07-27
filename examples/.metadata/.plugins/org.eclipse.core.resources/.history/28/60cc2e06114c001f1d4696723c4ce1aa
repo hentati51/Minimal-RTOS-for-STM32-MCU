@@ -1,0 +1,21 @@
+BSP/STM32F4/Src/STM32F4_led.o: ../BSP/STM32F4/Src/STM32F4_led.c \
+ C:/Users/henta/Desktop/embedded/RTOS\ from\ scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/BSP/STM32F4/Inc/STM32F4_led.h \
+ C:/Users/henta/Desktop/embedded/RTOS\ from\ scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/App/Inc/boardConfig.h \
+ C:/Users/henta/Desktop/embedded/RTOS\ from\ scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/chip_headers_F4/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+ C:/Users/henta/Desktop/embedded/RTOS\ from\ scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/chip_headers_F4/Device/ST/STM32F4xx/Include/stm32f407xx.h \
+ C:/Users/henta/Desktop/embedded/RTOS\ from\ scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/chip_headers_F4/Include/core_cm4.h \
+ C:/Users/henta/Desktop/embedded/RTOS\ from\ scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/chip_headers_F4/Include/cmsis_version.h \
+ C:/Users/henta/Desktop/embedded/RTOS\ from\ scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/chip_headers_F4/Include/cmsis_compiler.h \
+ C:/Users/henta/Desktop/embedded/RTOS\ from\ scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/chip_headers_F4/Include/cmsis_gcc.h \
+ C:/Users/henta/Desktop/embedded/RTOS\ from\ scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/chip_headers_F4/Include/mpu_armv7.h \
+ C:/Users/henta/Desktop/embedded/RTOS\ from\ scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/chip_headers_F4/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+C:/Users/henta/Desktop/embedded/RTOS\ from\ scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/BSP/STM32F4/Inc/STM32F4_led.h:
+C:/Users/henta/Desktop/embedded/RTOS\ from\ scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/App/Inc/boardConfig.h:
+C:/Users/henta/Desktop/embedded/RTOS\ from\ scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/chip_headers_F4/Device/ST/STM32F4xx/Include/stm32f4xx.h:
+C:/Users/henta/Desktop/embedded/RTOS\ from\ scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/chip_headers_F4/Device/ST/STM32F4xx/Include/stm32f407xx.h:
+C:/Users/henta/Desktop/embedded/RTOS\ from\ scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/chip_headers_F4/Include/core_cm4.h:
+C:/Users/henta/Desktop/embedded/RTOS\ from\ scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/chip_headers_F4/Include/cmsis_version.h:
+C:/Users/henta/Desktop/embedded/RTOS\ from\ scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/chip_headers_F4/Include/cmsis_compiler.h:
+C:/Users/henta/Desktop/embedded/RTOS\ from\ scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/chip_headers_F4/Include/cmsis_gcc.h:
+C:/Users/henta/Desktop/embedded/RTOS\ from\ scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/chip_headers_F4/Include/mpu_armv7.h:
+C:/Users/henta/Desktop/embedded/RTOS\ from\ scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/chip_headers_F4/Device/ST/STM32F4xx/Include/system_stm32f4xx.h:

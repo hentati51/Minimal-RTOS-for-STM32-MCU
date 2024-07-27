@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_Blinker,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Shared_UART
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Shared_UART,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_Blinker
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Generique-RTOS_V1/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Generique-RTOS_V1/activeLaunchTarget=null\:---

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;STM32-F103_LED_Blinker/chip_headers&apos; to &apos;chip_headers_F1&apos;" description="Rename resource &apos;chip_headers&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="chip_headers" name="chip_headers_F1" stamp="1722007163239" updateReferences="true"/>
+</session>

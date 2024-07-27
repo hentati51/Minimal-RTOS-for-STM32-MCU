@@ -1,0 +1,10 @@
+14:02:28 **** Incremental Build of configuration Debug for project LED_Blinker_F407 ****
+make -j8 all 
+arm-none-eabi-size   LED_Blinker_F407.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4868	      8	   5840	  10716	   29dc	LED_Blinker_F407.elf
+Finished building: default.size.stdout
+ 
+
+14:02:28 Build Finished. 0 errors, 0 warnings. (took 271ms)
+

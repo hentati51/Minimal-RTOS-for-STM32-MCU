@@ -1,0 +1,44 @@
+#include "STM32F1_led.h"
+
+#define GPIOCEN (1U<<4)
+
+void led_init(void){
+	// enable clock for port C
+	//RCC ->  APB2ENR   |= GPIOCEN;
+
+	RCC ->  APB2ENR   |= RCC_APB2ENR_IOPCEN;
+
+	// configure PIN 13 IN PORTC as output
+
+	GPIOC -> CRH      |= (1U<<20);
+	GPIOC -> CRH      &= ~(1U<<21);
+
+	GPIOC -> CRH      |= (1U<<22);
+	GPIOC -> CRH      &= ~(1U<<23);
+
+    //GPIOC->CRH      &=  ~(GPIO_CRH_MODE13 | GPIO_CRH_CNF13);    // reset PC13
+    //GPIOC->CRH      |= (GPIO_CRH_MODE13_1 | GPIO_CRH_MODE13_0); // config PC13
+
+}
+
+void led_on(void){
+	//GPIOC -> ODR |= (1U<<13);
+	GPIOC->BSRR = GPIO_BSRR_BR13;
+
+}
+
+void led_off(void){
+	//GPIOC -> ODR &= ~(1U<<13);
+	GPIOC->BSRR = GPIO_BSRR_BS13;
+
+
+
+}
+
+void toggle_led(void){
+	//^=: This is the bitwise XOR
+    GPIOC->ODR ^= (1U << 13);  // Toggle LED
+
+
+}
+

@@ -1,0 +1,34 @@
+13:58:43 **** Incremental Build of configuration Debug for project Shared_UART_F407 ****
+make -j8 all 
+arm-none-eabi-gcc "../RTOS/Src/osKernel.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F407VGTx -c -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/App/Inc" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/BSP/STM32F4/Inc" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/chip_headers_F4/Device/ST/STM32F4xx/Include" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/RTOS/Inc" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/chip_headers_F4/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"RTOS/Src/osKernel.d" -MT"RTOS/Src/osKernel.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "RTOS/Src/osKernel.o"
+arm-none-eabi-gcc "../RTOS/Src/semaphore.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F407VGTx -c -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/App/Inc" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/BSP/STM32F4/Inc" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/chip_headers_F4/Device/ST/STM32F4xx/Include" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/RTOS/Inc" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/chip_headers_F4/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"RTOS/Src/semaphore.d" -MT"RTOS/Src/semaphore.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "RTOS/Src/semaphore.o"
+arm-none-eabi-gcc "../BSP/STM32F4/Src/STM32F4_led.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F407VGTx -c -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/App/Inc" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/BSP/STM32F4/Inc" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/chip_headers_F4/Device/ST/STM32F4xx/Include" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/RTOS/Inc" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/chip_headers_F4/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"BSP/STM32F4/Src/STM32F4_led.d" -MT"BSP/STM32F4/Src/STM32F4_led.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "BSP/STM32F4/Src/STM32F4_led.o"
+arm-none-eabi-gcc "../BSP/STM32F4/Src/STM32F4_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F407VGTx -c -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/App/Inc" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/BSP/STM32F4/Inc" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/chip_headers_F4/Device/ST/STM32F4xx/Include" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/RTOS/Inc" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/chip_headers_F4/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"BSP/STM32F4/Src/STM32F4_uart.d" -MT"BSP/STM32F4/Src/STM32F4_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "BSP/STM32F4/Src/STM32F4_uart.o"
+arm-none-eabi-gcc "../App/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F407VGTx -c -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/App/Inc" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/BSP/STM32F4/Inc" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/chip_headers_F4/Device/ST/STM32F4xx/Include" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/RTOS/Inc" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/chip_headers_F4/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"App/Src/main.d" -MT"App/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "App/Src/main.o"
+../BSP/STM32F4/Src/STM32F4_uart.c: In function 'USART2_IRQHandler':
+../BSP/STM32F4/Src/STM32F4_uart.c:285:31: warning: unused variable 'temp' [-Wunused-variable]
+  285 |              volatile uint8_t temp = USART2->DR;  // Read data to clear the RXNE flag
+      |                               ^~~~
+In file included from ../App/Src/main.c:23:
+C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/Shared_UART_F407/RTOS/Inc/osKernel.h:21: warning: "NULL" redefined
+   21 | #define NULL  (void*) 0
+      | 
+In file included from c:\st\stm32cubeide_1.7.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\stdio.h:36,
+                 from ../App/Src/main.c:20:
+c:\st\stm32cubeide_1.7.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h:395: note: this is the location of the previous definition
+  395 | #define NULL ((void *)0)
+      | 
+arm-none-eabi-gcc -o "Shared_UART_F407.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\henta\Desktop\embedded\RTOS from scratch\GCC_stm32F1_cudeIde\MyRTOS\examples\Shared_UART_F407\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Shared_UART_F407.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Shared_UART_F407.elf
+ 
+arm-none-eabi-size   Shared_UART_F407.elf 
+arm-none-eabi-objdump -h -S  Shared_UART_F407.elf  > "Shared_UART_F407.list"
+   text	   data	    bss	    dec	    hex	filename
+   6012	    120	   4968	  11100	   2b5c	Shared_UART_F407.elf
+Finished building: default.size.stdout
+ 
+Finished building: Shared_UART_F407.list
+ 
+
+13:58:44 Build Finished. 0 errors, 2 warnings. (took 961ms)
+

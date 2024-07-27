@@ -1,0 +1,33 @@
+14:02:22 **** Incremental Build of configuration Debug for project LED_Blinker_F103 ****
+make -j8 all 
+arm-none-eabi-gcc "../BSP/STM32F1/Src/STM32F1_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker_F103/BSP/STM32F1/Inc" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker_F103/chip_headers_F1/Include" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker_F103/RTOS/Inc" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker_F103/App/Inc" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker_F103/chip_headers_F1/Device/ST/STM32F1xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"BSP/STM32F1/Src/STM32F1_gpio.d" -MT"BSP/STM32F1/Src/STM32F1_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "BSP/STM32F1/Src/STM32F1_gpio.o"
+arm-none-eabi-gcc "../App/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker_F103/BSP/STM32F1/Inc" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker_F103/chip_headers_F1/Include" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker_F103/RTOS/Inc" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker_F103/App/Inc" -I"C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker_F103/chip_headers_F1/Device/ST/STM32F1xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"App/Src/main.d" -MT"App/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "App/Src/main.o"
+In file included from ../App/Src/main.c:19:
+C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker_F103/RTOS/Inc/osKernel.h:21: warning: "NULL" redefined
+   21 | #define NULL  (void*) 0
+      | 
+In file included from c:\st\stm32cubeide_1.7.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\stdio.h:36,
+                 from ../App/Src/main.c:16:
+c:\st\stm32cubeide_1.7.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h:395: note: this is the location of the previous definition
+  395 | #define NULL ((void *)0)
+      | 
+arm-none-eabi-gcc -o "LED_Blinker_F103.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\henta\Desktop\embedded\RTOS from scratch\GCC_stm32F1_cudeIde\MyRTOS\examples\LED_Blinker_F103\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LED_Blinker_F103.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LED_Blinker_F103.elf
+ 
+arm-none-eabi-size   LED_Blinker_F103.elf 
+arm-none-eabi-objdump -h -S  LED_Blinker_F103.elf  > "LED_Blinker_F103.list"
+arm-none-eabi-objcopy  -O ihex  LED_Blinker_F103.elf  "LED_Blinker_F103.hex"
+arm-none-eabi-objcopy  -O binary  LED_Blinker_F103.elf  "LED_Blinker_F103.bin"
+   text	   data	    bss	    dec	    hex	filename
+   4080	      8	   5824	   9912	   26b8	LED_Blinker_F103.elf
+Finished building: default.size.stdout
+ 
+Finished building: LED_Blinker_F103.hex
+Finished building: LED_Blinker_F103.bin
+ 
+Finished building: LED_Blinker_F103.list
+ 
+ 
+
+14:02:23 Build Finished. 0 errors, 1 warnings. (took 1s.211ms)
+

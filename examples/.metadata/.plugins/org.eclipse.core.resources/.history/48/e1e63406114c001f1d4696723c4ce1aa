@@ -1,0 +1,30 @@
+C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/chip_headers_F4/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	16	static,ignoring_inline_asm
+C:/Users/henta/Desktop/embedded/RTOS from scratch/GCC_stm32F1_cudeIde/MyRTOS/examples/LED_Blinker/chip_headers_F4/Include/core_cm4.h:1814:22:__NVIC_SetPriority	16	static
+../RTOS/Src/osKernel.c:53:28:userIdleHook	4	static
+../RTOS/Src/osKernel.c:72:6:osKernelStackInit	16	static
+../RTOS/Src/osKernel.c:93:13:osKernelCreateTask	16	static,ignoring_inline_asm
+../RTOS/Src/osKernel.c:119:14:osKernelCreatePeriodc_Task	16	static
+../RTOS/Src/osKernel.c:139:6:KernelIdleTask	4	static
+../RTOS/Src/osKernel.c:145:6:userIdleTask	8	static
+../RTOS/Src/osKernel.c:151:6:osKernelInit	8	static
+../RTOS/Src/osKernel.c:164:6:osKernelLaunch	8	static
+../RTOS/Src/osKernel.c:198:29:PendSV_Handler	0	static,ignoring_inline_asm
+../RTOS/Src/osKernel.c:250:6:osSchedulerLaunch	4	static,ignoring_inline_asm
+../RTOS/Src/osKernel.c:287:7:osThredYield	4	static
+../RTOS/Src/osKernel.c:308:7:SysTick_Handler	4	static
+../RTOS/Src/osKernel.c:319:7:osPriorityScheduler	24	static
+../RTOS/Src/osKernel.c:349:11:findFirstHighestPriorityTask	24	static
+../RTOS/Src/osKernel.c:367:11:MS_to_Quantas	16	static
+../RTOS/Src/osKernel.c:381:7:periodic_events_execute	16	static
+../RTOS/Src/osKernel.c:412:10:osKernelSuspendTask	24	static
+../RTOS/Src/osKernel.c:428:9:osKernelResumeTask	24	static
+../RTOS/Src/osKernel.c:446:9:osKernelSuspendPeriodicTask	24	static
+../RTOS/Src/osKernel.c:460:9:osKernelResumePeriodicTask	24	static
+../RTOS/Src/osKernel.c:476:9:osKernelSetPriority	24	static
+../RTOS/Src/osKernel.c:493:7:osThreadSleep	16	static,ignoring_inline_asm
+../RTOS/Src/osKernel.c:511:7:tickTimer_Init	24	static,ignoring_inline_asm
+../RTOS/Src/osKernel.c:546:7:TIM2_IRQHandler	4	static
+../RTOS/Src/osKernel.c:550:7:TIM3_IRQHandler	4	static
+../RTOS/Src/osKernel.c:553:9:TIM4_IRQHandler	4	static
+../RTOS/Src/osKernel.c:556:10:TIM5_IRQHandler	4	static
+../RTOS/Src/osKernel.c:563:10:sem_timeout_handle	24	static
