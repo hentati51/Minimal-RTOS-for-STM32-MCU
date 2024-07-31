@@ -1,4 +1,4 @@
-# Minimal RTOS for STM32 MCU
+# RTOS from scratch for STM32 MCU
 
 ## Overview
 
